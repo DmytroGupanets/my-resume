@@ -9,14 +9,82 @@ body {
   background-color: white;
   margin: 40px auto;
 }
-.about-me-profession {
-  font: 14px;
-  font-weight: 700;
-  color: black;
+.main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
 }
+/* About me section */
 .about-me-section {
+  margin-bottom: 40px;
 }
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: black;
+  margin: 0 0 20px 0;
+}
+.main-information-section {
+  padding: 100px 90px;
+}
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: black;
+  margin: 0 0 25px 0;
+}
+.about-me-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  width: 400px;
+  color: #595959;
+}
+/* My projects section */
 .my-project-section {
+  margin: 0 0 50px 0;
+}
+.my-project-item {
+  color: #000000;
+}
+.my-project-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 10px;
+}
+.my-project-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-decoration: none;
+}
+.my-project-brakets {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.my-project-list {
+  padding: 0 0 0 17px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
 }
 .my-work-expirience {
 }
