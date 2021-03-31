@@ -8,6 +8,8 @@ body {
   width: 1200px;
   background-color: white;
   margin: 40px auto;
+  background: #f5f7fa;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .main-content-title {
   font-style: normal;
@@ -16,10 +18,11 @@ body {
   line-height: 27px;
   color: #000000;
   margin-bottom: 10px;
+  width: 830px;
 }
 /* About me section */
 .about-me-section {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .about-me-profession {
   font-style: normal;
@@ -86,9 +89,75 @@ body {
   line-height: 24px;
   color: #000000;
 }
+/* My work expirience section */
+
 .my-work-expirience {
+  width: 525px;
+  margin-top: 50px;
 }
-.my-education-section {
+.my-work-expirience-company {
+  color: #fb6d3a;
+}
+
+.my-work-expirience-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+.my-work-expirience-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+.my-work-expirience-devider {
+  color: #000000;
+}
+.my-work-expirience-duties {
+  padding-left: 18px;
+}
+.my-work-expirience-duty {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.my-work-expirience-companies {
+  margin-bottom: 20px;
+}
+
+/* Education section */
+.education-section-university-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin: 10px 0 0 0;
+}
+.my-education-department {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 10px 0 0 0;
+}
+.my-education-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 10px 0 0 0;
+}
+.my-education-period-devider {
+  color: #000000;
 }
 
 /* Sidebar section */
@@ -110,6 +179,7 @@ body {
   color: #f5f7fa;
   margin-bottom: 10px;
 }
+
 /* Contacts for sidebar section */
 .contacts-type {
   font-style: normal;
